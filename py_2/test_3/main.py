@@ -1,6 +1,6 @@
+from item import Item
 from member import Member
 from order import Order
-from item import Item
 
 
 def main() -> None:

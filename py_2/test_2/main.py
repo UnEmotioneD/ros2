@@ -1,6 +1,6 @@
-from user import User
-from post import Post
 from comment import Comment
+from post import Post
+from user import User
 
 
 def main() -> None:
