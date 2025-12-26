@@ -21,11 +21,11 @@ class User:
     def send_email(self):
         print(f"Email sent to Mr.{self.name}")
 
-    def input_password(self) -> str:
+    def input_password(self):
         return print("Enter password: ")
 
     def check_password(self) -> bool:
-        password_input: str = self.input_password()
+        password_input = self.input_password()
 
         if self.password is password_input:
             return True
